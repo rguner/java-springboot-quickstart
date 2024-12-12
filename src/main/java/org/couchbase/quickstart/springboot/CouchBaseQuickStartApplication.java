@@ -8,12 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class, proxyBeanMethods = false)
-public class Application implements CommandLineRunner {
+public class CouchBaseQuickStartApplication implements CommandLineRunner {
 
-    private static final Logger log = LoggerFactory.getLogger(Application.class);
+    private static final Logger log = LoggerFactory.getLogger(CouchBaseQuickStartApplication.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CouchBaseQuickStartApplication.class, args);
     }
 
     public void run(String... args) {

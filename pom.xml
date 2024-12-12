@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>org.couchbase</groupId>
-    <artifactId>src</artifactId>
+    <artifactId>couchbase-quickstart-java</artifactId>
     <version>1.0</version>
-    <name>quickstart-java</name>
+    <name>couchbase-quickstart-java</name>
     <description>Quickstart Java Project User Profile with Spring Boot</description>
 
     <properties>
